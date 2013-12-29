@@ -1,4 +1,7 @@
-<h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+<h1><a href="{{ root_url }}/">
+    <span class="first-title">{{ site.first_title }}</span>
+    <span class="last-title">{{ site.last_title }}</span>
+</a></h1>
 <h4>{{site.subtitle}}</h4>
 <nav id="main-nav">{% include navigation.html %}</nav>
 <nav id="mobile-nav">
